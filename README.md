@@ -58,4 +58,4 @@
 
 
 #### Task 6: Perform File Upload and Download using AWS SDK API
-* Refer the separate article - api.md
+* Refer the separate article - https://github.com/nareshkumar-h/aws-s3-demo/blob/main/api.md
