@@ -145,7 +145,7 @@ public class S3Controller {
 
 ##### Task 7: Develop a HTML Form
 
-```
+```html
 <form action="http://localhost:9000/api/s3/upload" method="POST" enctype="multipart/form-data">
 
         <label for="name">File Name</label>
