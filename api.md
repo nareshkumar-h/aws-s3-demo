@@ -142,3 +142,18 @@ public class S3Controller {
 		return fileNameUrl;
 	}
 ```
+
+##### Task 7: Develop a HTML Form
+
+```
+<form action="http://localhost:9000/api/s3/upload" method="POST" enctype="multipart/form-data">
+
+        <label for="name">File Name</label>
+        <input type="text" name="fileName" id="fileName" value="spinsoft/test1.jpeg">
+
+        <label for="file">Choose File</label>
+        <input type="file" name="file" id="file">
+
+        <button type="submit">Submit</button>
+    </form>
+```
