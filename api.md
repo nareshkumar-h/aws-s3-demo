@@ -121,7 +121,7 @@ public class AwsS3Service {
 
 ##### Task 5: Develop REST API
 
-```
+```java
 @RestController
 @RequestMapping("api/s3")
 public class S3Controller {
@@ -136,7 +136,7 @@ public class S3Controller {
 ##### Task 6: Add a method to upload api
 
 ```java
-@PostMapping("upload")
+        @PostMapping("upload")
 	public String uploadFile(@RequestParam("fileName") String fileName, @RequestBody MultipartFile file ) {		
 		String fileNameUrl = s3Service.uploadFileContentAsFile(fileName, file);
 		return fileNameUrl;
