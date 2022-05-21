@@ -32,8 +32,8 @@
 ##### Task 2: Add AWS Credentials in Spring Boot "application.properties"
 
 ```
-AWS_ACCESS_KEY_ID=AKIA4CFB5WA643ASL35M
-AWS_SECRET_ACCESS_KEY=cDl9a1EkTcNCghQPS3iVl74wF9HARrVyPoXk82N4
+AWS_ACCESS_KEY_ID=youraccesskey
+AWS_SECRET_ACCESS_KEY=yourpassword
 S3_BUCKET_NAME=ecommerce-kv-b1-2022
 ```
 
